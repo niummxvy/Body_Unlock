@@ -1,0 +1,6 @@
+﻿  Body_Unlock.cpp
+  main.cpp
+c:\users\user\documents\vs_c++\kinecttest\main.cpp(90): warning C4101: 'resample_start': 未參考的區域變數
+c:\users\user\documents\vs_c++\kinecttest\main.cpp(90): warning C4101: 'resample_end': 未參考的區域變數
+  正在產生程式碼...
+  kinecttest.vcxproj -> C:\Users\user\Documents\VS_C++\kinecttest\x64\Debug\kinecttest.exe
