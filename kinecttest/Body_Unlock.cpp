@@ -10,6 +10,10 @@ Body_Unlock::Body_Unlock()
 {
 	for (int i = 0; i < JointType_Count*6; ++i) { pwd[i] = 0; }
 	mode = 1;
+/*	leftbound = 0;
+	rightbound = 0;
+	upbound = 0;
+	downbound = 0; */
 }
 
 Body_Unlock::~Body_Unlock(){}
@@ -17,6 +21,52 @@ Body_Unlock::~Body_Unlock(){}
 int Body_Unlock::getMode()
 {
 	return mode;
+}
+/*
+void Body_Unlock::setLeftBound(double pos)
+{
+	if (pos < leftbound) leftbound = pos;
+}
+
+void Body_Unlock::setRightBound(double pos)
+{
+	if (pos > rightbound) rightbound = pos;
+}
+
+void Body_Unlock::setUpBound(double pos)
+{
+	if (pos < upbound) upbound = pos;
+}
+
+void Body_Unlock::setDownBound(double pos)
+{
+	if (pos > downbound) downbound = pos;
+}
+
+void Body_Unlock::setCenter(ColorSpacePoint *Point)
+{
+	Point->X = (Point->X - (rightbound + leftbound) / 2) / (rightbound - leftbound);
+	Point->Y = (Point->Y - (downbound + upbound) / 2) / (downbound - upbound);
+}
+
+double Body_Unlock::getLeftBound()
+{
+	return leftbound;
+}
+
+double Body_Unlock::getRightBound()
+{
+	return rightbound;
+}
+
+double Body_Unlock::getUpBound()
+{
+	return upbound;
+}
+
+double Body_Unlock::getDownBound()
+{
+	return downbound;
 }
 
 void Body_Unlock::setMode(int newmode)
@@ -26,6 +76,12 @@ void Body_Unlock::setMode(int newmode)
 	else if (mode == 1) cout << "State: Unlocked" << endl;
 }
 
+void Body_Unlock::resize(ColorSpacePoint * Point)
+{
+	Point->X = (Point->X - (rightbound + leftbound) / 2) / (rightbound - leftbound);
+	Point->Y = (Point->Y - (downbound + upbound) / 2) / (downbound - upbound);
+}
+*/
 bool Body_Unlock::judge(ColorSpacePoint *newPos)
 {
 	clock_t start, end;

@@ -1,6 +1,7 @@
-﻿  Body_Unlock.cpp
-  main.cpp
-c:\users\user\documents\vs_c++\kinecttest\main.cpp(90): warning C4101: 'resample_start': 未參考的區域變數
-c:\users\user\documents\vs_c++\kinecttest\main.cpp(90): warning C4101: 'resample_end': 未參考的區域變數
-  正在產生程式碼...
-  kinecttest.vcxproj -> C:\Users\user\Documents\VS_C++\kinecttest\x64\Debug\kinecttest.exe
+﻿  System.cpp
+c:\users\user\documents\github\body_unlock\kinecttest\system.cpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\users\user\documents\github\body_unlock\kinecttest\system.cpp(102): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\user\documents\github\body_unlock\kinecttest\system.cpp(103): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\user\documents\github\body_unlock\kinecttest\system.cpp(178): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\users\user\documents\github\body_unlock\kinecttest\system.cpp(179): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  kinecttest.vcxproj -> C:\Users\user\Documents\GitHub\Body_Unlock\kinecttest\x64\Debug\kinecttest.exe

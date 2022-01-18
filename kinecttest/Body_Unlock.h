@@ -58,11 +58,24 @@ pwd[i%6] == 0: dist(i, JointType_Head)
 /*	mode = 0: locked
 		 = 1: unlocked(can set new lock)
 */
+/*	double leftbound;
+	double rightbound;
+	double upbound;
+	double downbound; */
 public:
 	Body_Unlock();
 	~Body_Unlock();
 	int getMode();
-	void setMode(int);
+/*	void setLeftBound(double);
+	void setRightBound(double);
+	void setUpBound(double);
+	void setDownBound(double);
+	void setCenter(ColorSpacePoint *);
+	double getLeftBound();
+	double getRightBound();
+	double getUpBound();
+	double getDownBound(); */
+//	void setMode(int);
 	bool judge(ColorSpacePoint *);
 	void locked();
 	void resetLock(ColorSpacePoint *);

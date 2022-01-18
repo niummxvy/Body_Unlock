@@ -15,15 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Body_Unlock.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
-    <ClCompile Include="Body_Unlock.cpp">
+    <ClCompile Include="System.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="maintest.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Body_Unlock.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
